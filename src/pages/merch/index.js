@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from '@/components/Nav'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const Merch = () => {
   return (

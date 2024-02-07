@@ -16,7 +16,6 @@ export async function getStaticProps() {
 }
 
 const Saga = ({ boostData }) => {
-    console.log(boostData)
   return (
     <motion.div
         initial={{ opacity: 0 }}
