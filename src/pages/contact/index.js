@@ -1,7 +1,6 @@
 import React from 'react'
 import Nav from '@/components/Nav'
 import ContactForm from '@/components/ContactForm'
-import backgroundVideo from '@/components/BackgroundVideo'
 
 import { motion } from 'framer-motion'
 
@@ -25,7 +24,7 @@ const Contact = () => {
       </div>
       <div className="m-10 flex flex-col items-center justify-center relative z-30 gap-5" style={{ textShadow: '0 0 15px rgba(0, 0, 0, 0.3)' }}>
         <div>
-          <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-['Futura']">CONTACT US</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-['Futura']">CONTACT US</h1>
         </div>
         <div className='flex items-center justify-center gap-5 md:gap-10 lg:gap-20'>
           <div>

@@ -17,6 +17,9 @@ module.exports = {
           "0 0px 20px rgba(255, 255, 255, 0.35)",
           "0 0px 65px rgba(255, 255, 255, 0.2)"
         ]
+      },
+      colors: {
+        'regal-blue' : '#0330ad'
       }
     },
   },

@@ -53,20 +53,20 @@ const CastCarousel = ({ castData, boostData }) => {
                       <div className="flex flex-col w-full justify-around p-10 h-full">
                         <div className="flex justify-between items-center">
                             <div>
-                                <p className="font-['Inter'] lg:text-5xl md:text-4xl sm:text-3xl text-2xl">{member.name}</p>
+                                <p className="font-['Inter'] lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-white">{member.name}</p>
                             </div>
                             <div className="hidden">
-                                <p className="font-['Inter'] md:text-base text-sm">aka</p>
-                                <p className="md:text-2xl text-lg font-['Crimson']">"{member.nickname}"</p>
+                                <p className="font-['Inter'] md:text-base text-sm text-white">aka</p>
+                                <p className="md:text-2xl text-lg font-['Crimson'] text-white">"{member.nickname}"</p>
                             </div>
                         </div>
                         <div className="flex flex-row gap-10 justify-around whitespace-normal">
                             <div className="sm:w-2/3 w-full flex flex-col justify-between text-gray-500 font-['Playfair'] text-[.5rem] md:text-sm">
-                                <div className="flex flex-col justify-between sm:gap-1 gap-5">
+                                <div className="flex flex-col justify-between sm:gap-1 gap-5 text-white">
                                     <div>
                                         <p>home: {member.origin}</p>
                                     </div>
-                                    <div className="flex justify-between">
+                                    <div className="flex justify-between text-white">
                                         <p>[{member.song.title}]</p>
                                         <p>- {member.song.artist}</p>
                                     </div>
@@ -155,7 +155,7 @@ const CastCarousel = ({ castData, boostData }) => {
                         />
                       </motion.div>
                       <div>
-                        <p className="text-xl font-['FuturaMd'] p-5">{member.name}</p>
+                        <p className="text-xl font-['FuturaMd'] p-5 text-white">{member.name}</p>
                       </div>
                     </motion.div>
                   )}

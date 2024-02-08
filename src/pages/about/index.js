@@ -13,7 +13,7 @@ const About = () => {
     exit={{ opacity: 0 }}
     transition={{ duration: 1, ease: "easeOut" }}
     >
-      <div className='bg-blue-950 relative h-[93vh] w-screen overflow-hidden text-white'>
+      <div className="bg-regal-blue relative h-[93vh] w-screen overflow-hidden text-white">
         <Nav />
         <div className="flex w-full h-full fixed items-center">
           <div className="flex flex-col font-['Glass'] sm:ml-[7.5rem] ml-[3rem] md:mr-auto sm:mr-20 mr-5">
