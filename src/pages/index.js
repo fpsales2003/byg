@@ -31,7 +31,7 @@ export default function Home() {
       <Nav />
       <div className="absolute z-0 h-full w-full flex justify-center items-center overflow-hidden">
         <img 
-          src={`/home/home${randomInteger}.png`}
+          src={`/home/home1.gif`}
           width={100}
           height={100}
           alt="Background"
