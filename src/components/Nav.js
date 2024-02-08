@@ -12,7 +12,7 @@ const Nav = () => {
   }
 
   return (
-    <div className="fixed z-50 md:left-10 md:top-10 top-5 left-5 text-white font-['FuturaMd'] text-2xl">
+    <div className="fixed z-50 md:left-10 md:top-10 top-5 left-5 text-white font-['FuturaMd'] text-2xl w-auto">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

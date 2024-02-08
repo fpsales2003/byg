@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 const Contact = () => {
   return (
-    <motion.div className="relative h-screen w-screen overflow-hidden"
+    <motion.div className="h-screen w-screen overflow-auto"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}
@@ -23,7 +23,7 @@ const Contact = () => {
           className="absolute w-auto min-w-full min-h-full max-w-none"
         />
       </div>
-      <div className="flex flex-col items-center justify-center h-screen w-screen relative z-30 gap-5" style={{ textShadow: '0 0 15px rgba(0, 0, 0, 0.3)' }}>
+      <div className="m-10 flex flex-col items-center justify-center relative z-30 gap-5" style={{ textShadow: '0 0 15px rgba(0, 0, 0, 0.3)' }}>
         <div>
           <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-['Futura']">CONTACT US</h1>
         </div>

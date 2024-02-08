@@ -13,7 +13,7 @@ const About = () => {
     exit={{ opacity: 0 }}
     transition={{ duration: 1, ease: "easeOut" }}
     >
-      <div className='bg-blue-950 relative h-[93vh] w-screen overflow-hidden'>
+      <div className='bg-blue-950 relative h-[93vh] w-screen overflow-hidden text-white'>
         <Nav />
         <div className="flex w-full h-full fixed items-center">
           <div className="flex flex-col font-['Glass'] sm:ml-[7.5rem] ml-[3rem] md:mr-auto sm:mr-20 mr-5">
@@ -24,7 +24,7 @@ const About = () => {
               </div>
               <div>
                 <h2 className='lg:text-6xl md:text-3xl sm:text-xl text-lg mb-1'>Mission Statement</h2>
-                <p className='xl:text-base md:text-sm text-xs'>It’s that feeling when you roll into the driveway right as your song ends. That moment when you hit a clip in your video game right as the chorus comes in. It’s your windshield wipers syncing up with your Discover Weekly. It’s drinking herbal tea while your TRF roommate plays the “junglecore atmospheric house jazz mix” they found on TikTok. It’s the perfect storm. In a world where arts and crafts and show and tell are a thing of the past, Boost Your Guys is an opportunity for creators to create and thrill-seekers to thrill.  “I would say that Boost Your Guys is a way to express feelings that aren’t able to be put into words.” Says Oscar Hechter, a BYG founder, “It provides a platform for people who wouldn’t usually express themselves artistically. Its avant-garde format could be compared to the Ernie Kovacs Show (1952) , Off the Air (2011), and Ambient Swim (2021). At the end of the day, Boost Your Guys serves as a vessel of emotion. A visually stunning medium that anyone can enjoy from the comfort of their own home.” </p>
+                <p className='xl:text-base md:text-sm text-xs'>It’s that feeling when you roll into the driveway right as your song ends. That moment when you hit a clip in your video game right as the chorus comes in. It’s your windshield wipers syncing up with your Discover Weekly. It’s the perfect storm. In a world where arts and crafts and show and tell are a thing of the past, Boost Your Guys is an opportunity for creators to create and thrill-seekers to thrill. It provides a platform for people who wouldn’t usually express themselves artistically. At the end of the day, Boost Your Guys serves as a vessel of emotion. A visually stunning medium that anyone can enjoy from the comfort of their own home. </p>
               </div>
             </div>
           </div>

@@ -25,9 +25,9 @@ const Footer = () => {
             </div>
             <div className="flex justify-center"><div className="w-[100%] border-b-2 border-black mt-1"></div></div>
           </motion.div>
-        <div className="flex items-center justify-around font-['FuturaMd']">
+        <div className="flex flex-col md:flex-row items-center justify-around font-['FuturaMd'] m-10">
           <div className='flex flex-col'>
-            <p className='text-2xl mb-2'>*The Original Guys*</p>
+            <p className='md:text-2xl text-lg'>*The Original Guys*</p>
             <p>- Jack Goodman</p>
             <p>- David Corro</p>
             <p>- Gerard Allen</p>
