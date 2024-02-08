@@ -67,7 +67,7 @@ const BoostPage = ({ boost }) => {
             <div className="relative z-30 w-screen h-screen flex flex-col justify-center md:items-start items-center gap-10">
                 <div className="xl:ml-32 lg:ml-24 md:ml-10 ml-5">
                     <motion.h1 
-                        className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl font-['Futura'] w-full self-start"
+                        className="text-4xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl font-['Futura'] w-full self-start text-white"
                         initial={{ scale: 1, textShadow: '0 0 3px rgba(255, 255, 255, 0.9)' }}
                     >
                         {boost.name}
