@@ -31,7 +31,7 @@ const Nav = () => {
             style={{ textShadow: '0 0 5px rgba(0, 0, 0, 5)' }}
           >
             <Image 
-              src="/navigation/topbun_home.PNG"
+              src="/navigation/topbun_home.png"
               height={100}
               width={100}
               alt="navigation hamburger menu"
@@ -48,7 +48,7 @@ const Nav = () => {
             style={{ textShadow: '0 0 5px rgba(0, 0, 0, 5)' }}
           >
             <Image 
-              src="/navigation/cheese_merch.PNG"
+              src="/navigation/cheese_merch.png"
               height={100}
               width={100}
               alt="navigation hamburger menu"
@@ -65,7 +65,7 @@ const Nav = () => {
             style={{ textShadow: '0 0 5px rgba(0, 0, 0, 5)' }}
           >
             <Image 
-              src="/navigation/cd_boosts.PNG"
+              src="/navigation/cd_boosts.png"
               height={100}
               width={100}
               alt="navigation hamburger menu"
@@ -82,7 +82,7 @@ const Nav = () => {
             style={{ textShadow: '0 0 5px rgba(0, 0, 0, 5)' }}
           >
             <Image 
-              src="/navigation/patty_profiles.PNG"
+              src="/navigation/patty_profiles.png"
               height={100}
               width={100}
               alt="navigation hamburger menu"
@@ -99,7 +99,7 @@ const Nav = () => {
             style={{ textShadow: '0 0 5px rgba(0, 0, 0, 5)' }}
           >
             <Image 
-              src="/navigation/lettuce_contact.PNG"
+              src="/navigation/lettuce_contact.png"
               height={100}
               width={100}
               alt="navigation hamburger menu"
@@ -116,7 +116,7 @@ const Nav = () => {
             style={{ textShadow: '0 0 5px rgba(0, 0, 0, 5)' }}
           >
             <Image 
-              src="/navigation/bottombun_about.PNG"
+              src="/navigation/bottombun_about.png"
               height={100}
               width={100}
               alt="navigation hamburger menu"
@@ -136,7 +136,7 @@ const Nav = () => {
         transition={{ duration: 0.2 }}
       >
         <Image
-          src="/navigation/burger_closed.PNG"
+          src="/navigation/burger_closed.png"
           height={100}
           width={100}
           alt="navigation hamburger menu"
