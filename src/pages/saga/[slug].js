@@ -56,7 +56,7 @@ const BoostPage = ({ boost }) => {
             <Nav />
             <div className="fixed z-0 h-full w-full flex justify-center items-center overflow-hidden">
                 <img
-                    src={`/boosts/backgrounds/${boost.slug}.png`}
+                    src={`/boosts/backgrounds/${boost.slug}.gif`}
                     loop
                     autoPlay
                     muted

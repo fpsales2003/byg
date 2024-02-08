@@ -33,7 +33,7 @@ const Saga = ({ boostData }) => {
                     <div key={index} className="relative w-full h-full">
                         <div className="absolute z-0 h-full w-full flex justify-center items-center overflow-hidden">
                                 <img 
-                                    src={`/boosts/backgrounds/${boost.slug}.png`}
+                                    src={`/boosts/backgrounds/${boost.slug}.gif`}
                                     width={100}
                                     height={100}
                                     alt="Background"
