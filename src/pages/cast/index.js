@@ -43,7 +43,7 @@ const Cast = () => {
             <div className="relative z-30 flex flex-col justify-center gap-16 h-screen">
                 <div className="self-center">
                     <motion.h1
-                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-['Futura']"
+                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-['Futura'] text-white"
                         initial={{ scale: 1, textShadow: '0 0 10px rgba(255, 255, 255, 0.9)' }}
                     >
                         OUR FRIENDS

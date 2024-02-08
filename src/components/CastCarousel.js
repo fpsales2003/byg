@@ -55,7 +55,7 @@ const CastCarousel = ({ castData, boostData }) => {
                             <div>
                                 <p className="font-['Inter'] lg:text-5xl md:text-4xl sm:text-3xl text-2xl">{member.name}</p>
                             </div>
-                            <div className="sm:block hidden">
+                            <div className="hidden">
                                 <p className="font-['Inter'] md:text-base text-sm">aka</p>
                                 <p className="md:text-2xl text-lg font-['Crimson']">"{member.nickname}"</p>
                             </div>
@@ -64,7 +64,7 @@ const CastCarousel = ({ castData, boostData }) => {
                             <div className="sm:w-2/3 w-full flex flex-col justify-between text-gray-500 font-['Playfair'] text-[.5rem] md:text-sm">
                                 <div className="flex flex-col justify-between sm:gap-1 gap-5">
                                     <div>
-                                        <p>origin: {member.origin}</p>
+                                        <p>home: {member.origin}</p>
                                     </div>
                                     <div className="flex justify-between">
                                         <p>[{member.song.title}]</p>
@@ -118,8 +118,9 @@ const CastCarousel = ({ castData, boostData }) => {
                                     className="sm:w-[8vw] w-full min-h-max"
                                   />
                                 </div>
-                                <div>
-                                    <p>{member.likes.one} - {member.likes.two} -. {member.likes.three}</p>
+                                <div className="w-full">
+                                    <p>likes:<br></br>- {member.likes.one}<br></br>
+                                    - {member.likes.two}<br></br>- {member.likes.three}</p>
                                 </div>
                             </div>
                         </div>
