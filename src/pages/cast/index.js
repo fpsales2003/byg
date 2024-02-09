@@ -30,14 +30,14 @@ const Cast = () => {
          transition={{ duration: 0.5, ease: "easeInOut" }}
         >
             <div className="absolute z-0 h-screen w-screen overflow-hidden flex justify-center">
-                <video
-                    src={"/profile/profilePageBackground.mp4"}
+                <img
+                    src={"/profile/profile.gif"}
                     loop
                     autoPlay
                     muted
                     className="absolute w-auto min-w-full min-h-full max-w-none"
                 >
-                </video>
+                </img>
             </div>
             <Nav className="relative z-30"/>
             <div className="relative z-30 flex flex-col justify-center gap-16 h-screen">
