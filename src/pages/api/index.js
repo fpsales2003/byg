@@ -793,11 +793,6 @@ export async function getMerchData() {
         link: "https://byg-storefront.printify.me/product/5714861/byg-world-tree-tee"
       },
       {
-        slug: "blizzard_tee",
-        name: "BYG Blizzard Clone Tee",
-        link: "https://byg-storefront.printify.me/product/5716975/byg-blizzard-clone"
-      },
-      {
         slug: "artifact_tee",
         name: "BYG: David's Artifact",
         link: "https://byg-storefront.printify.me/product/5717326/byg-davids-artifact"
@@ -806,6 +801,11 @@ export async function getMerchData() {
         slug: "epl_tee",
         name: "Evil Pussy Liberator",
         link: "https://byg-storefront.printify.me/product/5718689/evil-pussy-liberator"
+      },
+      {
+        slug: "blizzard_tee",
+        name: "BYG Blizzard Clone Tee",
+        link: "https://byg-storefront.printify.me/product/5716975/byg-blizzard-clone"
       },
       {
         slug: "dark_world_tee",
@@ -838,14 +838,14 @@ export async function getMerchData() {
         link: "https://byg-storefront.printify.me/product/5818831/byg-bathing-suit"
       },
       {
-        slug: "oscars_blanket",
-        name: "Oscar's Ark Blanket",
-        link: "https://byg-storefront.printify.me/product/5719496/oscars-ark-blanket"
-      },
-      {
         slug: "oscars_towel",
         name: "Oscar's Ark Beach Towel",
         link: "https://byg-storefront.printify.me/product/5738179/oscars-ark-beach-towel"
+      },
+      {
+        slug: "oscars_blanket",
+        name: "Oscar's Ark Blanket",
+        link: "https://byg-storefront.printify.me/product/5719496/oscars-ark-blanket"
       },
       {
         slug: "wizard_sticker",
@@ -853,14 +853,14 @@ export async function getMerchData() {
         link: "https://byg-storefront.printify.me/product/5821816/byg-wizard-sticker"
       },
       {
-        slug: "peach_golf_balls",
-        name: "BYG Peach Golf Balls",
-        link: "https://byg-storefront.printify.me/product/5717139/byg-peach-golf-balls"
-      },
-      {
         slug: "peach_ping_pong",
         name: "BYG Peach Ping Pong Balls",
         link: "https://byg-storefront.printify.me/product/5737920/byg-peach-ping-pong-balls-6-pcs"
+      },
+      {
+        slug: "peach_golf_balls",
+        name: "BYG Peach Golf Balls",
+        link: "https://byg-storefront.printify.me/product/5717139/byg-peach-golf-balls"
       },
       {
         slug: "byg1_candle",
