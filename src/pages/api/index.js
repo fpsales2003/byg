@@ -854,7 +854,7 @@ export async function getMerchData() {
       },
       {
         slug: "peach_ping_pong",
-        name: "BYG Peach Ping Pong Balls",
+        name: "BYG Peach Pong Balls",
         link: "https://byg-storefront.printify.me/product/5737920/byg-peach-ping-pong-balls-6-pcs"
       },
       {
