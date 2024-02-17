@@ -850,12 +850,12 @@ export async function getMerchData() {
       {
         slug: "wizard_sticker",
         name: "BYG Wizard Sticker",
-        link: "https://byg-storefront.printify.me/product/5820870/vitamin-boost-serum-1oz"
+        link: "https://byg-storefront.printify.me/product/5821816/byg-wizard-sticker"
       },
       {
         slug: "peach_golf_balls",
         name: "BYG Peach Golf Balls",
-        link: "https://byg-storefront.printify.me/product/5821816/byg-wizard-sticker"
+        link: "https://byg-storefront.printify.me/product/5717139/byg-peach-golf-balls"
       },
       {
         slug: "peach_ping_pong",
