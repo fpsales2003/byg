@@ -783,16 +783,6 @@ export async function getMusic() {
 export async function getMerchData() {
   const merchData = [
       {
-        slug: "epl_baby_tee",
-        name: "EPL for Babies",
-        link: "https://byg-storefront.printify.me/product/5719082/epl-for-babies"
-      },
-      {
-        slug: "peach_baby_tee",
-        name: "BYG Peach Baby Tee",
-        link: "https://byg-storefront.printify.me/product/5719690/byg-peach-baby-tee"
-      },
-      {
         slug: "zoo_tee",
         name: "BYG Zoo Tee",
         link: "https://byg-storefront.printify.me/product/5715068/byg-zoo-tee"
@@ -821,6 +811,16 @@ export async function getMerchData() {
         slug: "dark_world_tee",
         name: "BYG DARK World Tree Tee",
         link: "https://byg-storefront.printify.me/product/5719276/byg-dark-world-tree-tee"
+      },
+      {
+        slug: "epl_baby_tee",
+        name: "EPL for Babies",
+        link: "https://byg-storefront.printify.me/product/5719082/epl-for-babies"
+      },
+      {
+        slug: "peach_baby_tee",
+        name: "BYG Peach Baby Tee",
+        link: "https://byg-storefront.printify.me/product/5719690/byg-peach-baby-tee"
       },
       {
         slug: "zoo_hoodie",
