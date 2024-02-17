@@ -24,7 +24,7 @@ const Contact = () => {
       </div>
       <div className="m-10 flex flex-col items-center justify-center relative z-30 gap-5" style={{ textShadow: '0 0 15px rgba(0, 0, 0, 0.3)' }}>
         <div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-['Futura']">CONTACT US</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-['Futura'] text-white">CONTACT US</h1>
         </div>
         <div className='flex items-center justify-center gap-5 md:gap-10 lg:gap-20'>
           <div>
@@ -62,7 +62,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='max-w-[50vw]'>
-          <p className="text-center text-md md:text-1xl lg:text-2xl font-['FuturaMd']">Interested in joining BOOST YOUR GUYS? Want your original content or music featured in our videos? Desiring to reach out in general?<br></br>Shoot us an email below:</p>
+          <p className="text-center text-md md:text-1xl lg:text-2xl font-['FuturaMd'] text-white">Interested in joining BOOST YOUR GUYS? Want your original content or music featured in our videos? Desiring to reach out in general?<br></br>Shoot us an email below:</p>
         </div>
         <div className='mt-3'>
           <ContactForm />

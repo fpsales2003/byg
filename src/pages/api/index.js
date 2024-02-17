@@ -359,7 +359,7 @@ export async function getCastDetails() {
   {
       id: "17",
       name: "Justin Kumiega",
-      slug: "justin",
+      slug: "kumi",
       nickname: "Kumi",
       origin: "Syracuse, NY",
       why: "Boost your guys! Why else?",
@@ -511,7 +511,7 @@ export async function getCastDetails() {
   {
       id: "24",
       name: "Jessie Aguirre",
-      slug: "yeshie",
+      slug: "jessie",
       nickname: "Yeshie",
       origin: "Ogden, Utah",
       why: "I boost to help boost those who are in need of boosting. Boosting fills my heart with boost and I want to spread the lovely boost to all of the boost.",
@@ -573,8 +573,29 @@ export async function getCastDetails() {
         "byg4"
       ]
   },
+  {
+    id: "27",
+    name: "Sarah Karb",
+    slug: "sarah",
+    nickname: "",
+    origin: "ur mother? Russia",
+    why: "Excitement & Wonder",
+    animal: "Sea Turtle or Pooh Bear",
+    likes: {
+      one: "Great oxidation event from 2 billion years ago",
+      two: "WATAAA 🫗 lakes, streams, creeks and waterfalls",
+      three: "sleeping in tents"
+    },
+    song: {
+      title: "Eternal Honeymoon",
+      artist: "Balue"
+    },
+    boosts: [
+      "byg3"
+    ]
+  },
 /*  {
-      id: "27",
+      id: "",
       name: "Ryan Zimmerman",
       slug: "ryan",
       nickname: "",
@@ -758,3 +779,114 @@ export async function getMusic() {
     },
   ]
 }
+
+export async function getMerchData() {
+  const merchData = [
+      {
+        slug: "epl_baby_tee",
+        name: "EPL for Babies",
+        link: "https://byg-storefront.printify.me/product/5719082/epl-for-babies"
+      },
+      {
+        slug: "peach_baby_tee",
+        name: "BYG Peach Baby Tee",
+        link: "https://byg-storefront.printify.me/product/5719690/byg-peach-baby-tee"
+      },
+      {
+        slug: "zoo_tee",
+        name: "BYG Zoo Tee",
+        link: "https://byg-storefront.printify.me/product/5715068/byg-zoo-tee"
+      },
+      {
+        slug: "world_tee",
+        name: "BYG World Tree Tee",
+        link: "https://byg-storefront.printify.me/product/5714861/byg-world-tree-tee"
+      },
+      {
+        slug: "blizzard_tee",
+        name: "BYG Blizzard Clone Tee",
+        link: "https://byg-storefront.printify.me/product/5716975/byg-blizzard-clone"
+      },
+      {
+        slug: "artifact_tee",
+        name: "BYG: David's Artifact",
+        link: "https://byg-storefront.printify.me/product/5717326/byg-davids-artifact"
+      },
+      {
+        slug: "epl_tee",
+        name: "Evil Pussy Liberator",
+        link: "https://byg-storefront.printify.me/product/5718689/evil-pussy-liberator"
+      },
+      {
+        slug: "dark_world_tee",
+        name: "BYG DARK World Tree Tee",
+        link: "https://byg-storefront.printify.me/product/5719276/byg-dark-world-tree-tee"
+      },
+      {
+        slug: "zoo_hoodie",
+        name: "BYG Zoo Hoodie",
+        link: "https://byg-storefront.printify.me/product/5818050/byg-zoo-hoodie"
+      },
+      {
+        slug: "world_hoodie",
+        name: "BYG World Tree Hoodie",
+        link: "https://byg-storefront.printify.me/product/5818293/byg-world-tree-hoodie"
+      },
+      {
+        slug: "bathing_suit",
+        name: "BYG Bathing Suit",
+        link: "https://byg-storefront.printify.me/product/5818831/byg-bathing-suit"
+      },
+      {
+        slug: "oscars_blanket",
+        name: "Oscar's Ark Blanket",
+        link: "https://byg-storefront.printify.me/product/5719496/oscars-ark-blanket"
+      },
+      {
+        slug: "oscars_towel",
+        name: "Oscar's Ark Beach Towel",
+        link: "https://byg-storefront.printify.me/product/5738179/oscars-ark-beach-towel"
+      },
+      {
+        slug: "wizard_sticker",
+        name: "BYG Wizard Sticker",
+        link: "https://byg-storefront.printify.me/product/5820870/vitamin-boost-serum-1oz"
+      },
+      {
+        slug: "peach_golf_balls",
+        name: "BYG Peach Golf Balls",
+        link: "https://byg-storefront.printify.me/product/5821816/byg-wizard-sticker"
+      },
+      {
+        slug: "peach_ping_pong",
+        name: "BYG Peach Ping Pong Balls",
+        link: "https://byg-storefront.printify.me/product/5737920/byg-peach-ping-pong-balls-6-pcs"
+      },
+      {
+        slug: "byg1_candle",
+        name: "BYG1 Scented Candle",
+        link: "https://byg-storefront.printify.me/product/5819250/byg1-scented-candle"
+      },
+      {
+        slug: "byg2_candle",
+        name: "BYG2 Scented Candle",
+        link: "https://byg-storefront.printify.me/product/5819405/byg2-scented-candle"
+      },
+      {
+        slug: "byg3_candle",
+        name: "BYG3 Scented Candle",
+        link: "https://byg-storefront.printify.me/product/5819703/byg3-scented-candle"
+      },
+      {
+        slug: "byg4_candle",
+        name: "BYG4 Scented Candle",
+        link: "https://byg-storefront.printify.me/product/5819985/byg4-scented-candle"
+      },
+      {
+        slug: "boost_serum",
+        name: "Vitamin Boost Serum",
+        link: "https://byg-storefront.printify.me/product/5820870/vitamin-boost-serum-1oz"
+      },
+    ]
+    return merchData
+  }
