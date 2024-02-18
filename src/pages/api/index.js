@@ -643,6 +643,7 @@ export async function getSagaDetails() {
             ],
             promo: [
               "promo1",
+              "promo2"
             ]
         },
         {
@@ -670,7 +671,6 @@ export async function getSagaDetails() {
             promo: [
               "promo1",
               "promo2",
-              "promo3",
             ]
         },
         {
@@ -709,7 +709,8 @@ export async function getSagaDetails() {
               "promo10",
               "promo11",
               "promo12",
-              "promo13"
+              "promo13",
+              "promo14"
             ],
         },
         {
@@ -752,7 +753,6 @@ export async function getSagaDetails() {
               "promo3",
               "promo4",
               "promo5",
-              "promo6",
             ]
         },
     ]
