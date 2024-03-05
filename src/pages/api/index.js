@@ -631,8 +631,8 @@ export async function getSagaDetails() {
             name: "BOOST YOUR GUYS 1",
             slug: "bygone",
             shorthand: "byg 1",
-            link: "https://youtu.be/KNe1BbpABnE?si=UadGsP50_C-auGVC",
-            embed: "https://www.youtube.com/embed/KNe1BbpABnE?si=U4KCiA68CrLZiWNW",
+            link: "https://youtu.be/Q9UAuF8bkG0?si=z7-9s2enLak5pDUS",
+            embed: "https://www.youtube.com/embed/Q9UAuF8bkG0?si=z7-9s2enLak5pDUS",
             desc: "Boost Your Guys 1, the first installment in the Boost Your Guys franchise, is a very tasteful avant-garde film consisting of four parts created by Oscar, David, Gerard, and Jack. BYG 1 balances addressing themes of cycles, home, and feeling while laying the groundwork for the essence of Boost Your Guys. BYG1 premiered on July 3rd and was released to the public on October 19th, 2022.",
             spotify: "https://open.spotify.com/embed/playlist/6lZfK2ukC9oPJTeK5dgxHz?utm_source=generator",
             members: [
@@ -785,17 +785,17 @@ export async function getMerchData() {
       {
         slug: "zoo_tee",
         name: "BYG Zoo Tee",
-        link: "https://byg-storefront.printify.me/product/5715068/byg-zoo-tee"
+        link: "https://byg-storefront.printify.me/product/5953835/byg-zoo-tee"
       },
       {
         slug: "world_tee",
         name: "BYG World Tree Tee",
-        link: "https://byg-storefront.printify.me/product/5714861/byg-world-tree-tee"
+        link: "https://byg-storefront.printify.me/product/5953211/byg-world-tree-tee"
       },
       {
         slug: "artifact_tee",
         name: "BYG: David's Artifact",
-        link: "https://byg-storefront.printify.me/product/5717326/byg-davids-artifact"
+        link: "https://byg-storefront.printify.me/product/5954140/byg-davids-artifact"
       },
       {
         slug: "epl_tee",
@@ -823,19 +823,34 @@ export async function getMerchData() {
         link: "https://byg-storefront.printify.me/product/5719690/byg-peach-baby-tee"
       },
       {
-        slug: "zoo_hoodie",
-        name: "BYG Zoo Hoodie",
-        link: "https://byg-storefront.printify.me/product/5818050/byg-zoo-hoodie"
+        slug: "zoo_hoodie_mono",
+        name: "BYG Zoo Hoodie [MONOCHROME]",
+        link: "https://byg-storefront.printify.me/product/5949801/byg-zoo-hoodie-monochrome"
       },
       {
-        slug: "world_hoodie",
-        name: "BYG World Tree Hoodie",
-        link: "https://byg-storefront.printify.me/product/5818293/byg-world-tree-hoodie"
+        slug: "zoo_hoodie_color",
+        name: "BYG Zoo Hoodie [COLOR]",
+        link: "https://byg-storefront.printify.me/product/5818050/byg-zoo-hoodie-color"
+      },
+      {
+        slug: "world_hoodie_mono",
+        name: "BYG World Tree Hoodie [MONOCHROME]",
+        link: "https://byg-storefront.printify.me/product/5949289/byg-world-tree-hoodie-monochrome"
+      },
+      {
+        slug: "world_hoodie_color",
+        name: "BYG World Tree Hoodie [COLOR]",
+        link: "https://byg-storefront.printify.me/product/5818293/byg-world-tree-hoodie-color"
       },
       {
         slug: "bathing_suit",
         name: "BYG Bathing Suit",
         link: "https://byg-storefront.printify.me/product/5818831/byg-bathing-suit"
+      },
+      {
+        slug: "byg_bikini",
+        name: "BYG Bikini Swimsuit",
+        link: "https://byg-storefront.printify.me/product/5961189/byg-bikini-swimsuit"
       },
       {
         slug: "oscars_towel",
